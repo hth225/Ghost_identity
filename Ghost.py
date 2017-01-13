@@ -4,8 +4,8 @@ fake = Factory.create('en-us')
 def Get_person_identity():
     print(fake.simple_profile())
 
-def Various_identity(num):
-    for _ in range(0, num):
+def Various_identity():
+    for _ in range(0, 10):
         print(fake.simple_profile())
 
 if __name__ == "__main__":
@@ -15,8 +15,8 @@ if __name__ == "__main__":
         if (value == '1'):
             Get_person_identity()
         elif(value == '2'):
-            num = input("How many?")
-            Various_identity(num)
+            print("Make 10person identity")
+            Various_identity()
         else:
             print("exit")
             break
