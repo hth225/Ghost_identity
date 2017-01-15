@@ -1,42 +1,48 @@
 from faker import Factory
 fake = Factory.create('en-us')
 
-def Get_person_identity():
+def write_Various_identities(): #writing various identities on various.txt
+    file_record = open("various.txt", 'a')
+    for _ in range(0, 10):
+        file_record.write(str(fake.simple_profile()))
+        file_record.write("\n")
+    file_record.close()
+
+def Get_person_identity(): #get single person identity
     print(fake.simple_profile())
 
-def Various_identity():
+def Various_identities(): #get various identities
     for _ in range(0, 10):
         print(fake.simple_profile())
 
-def write_identities(cache):
+def write_identities(): #writing single identities on Got_Identities.txt
     file = open("Got_Identities.txt", 'a')
-    file.write(str(cache))
+    file.write(str(fake.simple_profile()))
+    file.write("\n")
     file.close()
-
 
 if __name__ == "__main__":
     while 1:
         print("1 : Single identity\n2 : Various identity\n3 : Exit\n")
         value = input(">")
-        if (value == '1'):
+        if (value == '1'): #get one identity
             Get_person_identity()
-            cache = Get_person_identity()
-            q = input("Do you want to write this on text file? (y/n)\n")
-            if(q == 'y'):
-                write_identities(str(cache))
-                print("Successfully done")
-            else:
+            q = input("Do you want to write additional identities on text file? (y/n)\n")
+            if(q == 'y'): #writing on text file
+                write_identities()
+                print("Successfully done\n")
+            else: #if user typed n or another charachter, break loop
                 break
-        elif(value == '2'):
-            print("Make 10person identity")
-            Various_identity()
-        else:
+        elif(value == '2'): #get various identities for 10 person
+            print("Make 10person identity\n")
+            Various_identities()
+            value = Various_identities()
+            qe = input("Do you want to write additional identities on text file? (y/n)\n")
+            if(qe == 'y'): #writing on text file
+                write_Various_identities()
+                print("Successfully done\n")
+            else: #if user typed n or another charachter, break loop
+                break
+        else: #exit
             print("exit")
             break
-
-
-# person = {
-#     "name": fake.namae(),
-#     "age": fake.namae(),
-# }
-# person['name']

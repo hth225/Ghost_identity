@@ -1,0 +1,10 @@
+NoneNoneNoneNoneNoneNoneNoneNoneNoneNoneNoneNoneNoneNoneNoneNoneNoneNoneNoneNoneNoneNoneNoneNoneNoneNoneNoneNoneNoneNoneNoneNoneNoneNoneNoneNoneNoneNoneNoneNone{'sex': 'M', 'birthdate': '2012-07-16', 'mail': 'robertsonchristopher@hotmail.com', 'address': 'USNS Rodriguez\nFPO AP 22315', 'username': 'craignguyen', 'name': 'Billy Murphy'}
+{'sex': 'F', 'birthdate': '1983-05-06', 'mail': 'willie94@yahoo.com', 'address': '365 Perez Junction\nWest Matthew, MS 58158-4745', 'username': 'jenniferlawrence', 'name': 'Julie Smith'}
+{'sex': 'M', 'birthdate': '1994-03-30', 'mail': 'amandarobinson@hotmail.com', 'address': '188 Michael Club Apt. 205\nEast Charlesfurt, SD 31689-5624', 'username': 'williammiller', 'name': 'Jason Austin'}
+{'sex': 'M', 'birthdate': '2008-01-10', 'mail': 'nicolaspoole@hotmail.com', 'address': '90296 Santos Ranch\nRobertberg, IL 84357-9677', 'username': 'riosamy', 'name': 'Sean Holmes'}
+{'sex': 'F', 'birthdate': '1989-07-12', 'mail': 'uhess@gmail.com', 'address': '7714 Michael Key\nSouth Bethany, VA 65670', 'username': 'jesse91', 'name': 'Kim Mckinney'}
+{'sex': 'F', 'birthdate': '2007-05-10', 'mail': 'heatherroberts@yahoo.com', 'address': '6388 Erickson Corner Suite 535\nRuizburgh, GA 43327-2583', 'username': 'jill96', 'name': 'Brandi Davis'}
+{'sex': 'M', 'birthdate': '2014-10-07', 'mail': 'fjones@yahoo.com', 'address': '13896 Kristin Parkways\nSwansonbury, OH 96957-7961', 'username': 'tkim', 'name': 'Mario Burnett'}
+{'sex': 'M', 'birthdate': '1974-05-10', 'mail': 'qjackson@yahoo.com', 'address': '75317 Amy Orchard\nEast Mistystad, MA 92874', 'username': 'fponce', 'name': 'Eric Castaneda'}
+{'sex': 'M', 'birthdate': '2009-07-21', 'mail': 'mporter@gmail.com', 'address': '09356 Kaitlyn Summit\nLake Jameschester, AK 98599-7173', 'username': 'bwade', 'name': 'Benjamin Rodriguez'}
+{'sex': 'M', 'birthdate': '2016-04-25', 'mail': 'bryan18@hotmail.com', 'address': '7717 Lisa Lodge Suite 735\nBrownchester, MT 02786-6159', 'username': 'danielle75', 'name': 'Frank Lopez'}
