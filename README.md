@@ -1,2 +1,3 @@
 # Ghost_identity
-Create ghost identity
+Create virtual identity and writing on text files
+
