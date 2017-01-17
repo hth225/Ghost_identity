@@ -1,5 +1,13 @@
 from faker import Factory
-fake = Factory.create('en-us')
+
+def supported_lang_dictionary():
+    file = open("supported_lang_dictionary.txt", 'r')
+    print(str(file.read()))
+    file.close()
+
+supported_lang_dictionary()
+con = input("\n-> ")
+fake = Factory.create(con)
 
 def write_Various_identities(): #writing various identities on various.txt
     file_record = open("various.txt", 'a')
@@ -30,6 +38,7 @@ def file_flush(): #clear all information that wrote
     file_2nd.close()
 
 if __name__ == "__main__":
+    initialize()
     while 1:
         print("1 : Single identity\n2 : Various identity\n3 : File flush\n4 : Exit")
         value = input(">")
@@ -51,6 +60,7 @@ if __name__ == "__main__":
                 print("Successfully done\n")
             else: #if user typed n or another charachter, escape loop
                 break
+
         elif(value == '3'):
             print("file flush process successfully done")
             file_flush()
